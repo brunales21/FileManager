@@ -1,0 +1,36 @@
+1. Muestra en pantalla la fecha y hora actual.
+2. Obtén el calendario de junio de 1998.
+3. Ejectua las siguientes órdenes y observa el resultado:
+echo date
+echo 'date'
+echo `date`
+4. Propón una expresión con comodines que incluya todos los nombres terminados en txt.
+5. Crea una expresión con comodines que incluya los nombres de ficheros que contengan el
+caráter a o el carácter b.
+6. Construye una expresión con comodines que incluya los archivos equipoA, equipoB, …
+hasta equipoM.
+7. Elabora una expresión con comodines que incluya las palabras Cap12, Cap13, hasta Cap19.
+8. Propón una expresión con comodines que comprenda nombres que comiencen por un dígito
+seguido por tres caracteres cualesquiera, un signo + y cualquier terminación.
+9. Comprueba cuál es el directorio actual.
+10. Crea en tu directorio de trabajo los subdirectorios PRUEBA1 y PRUEBA2, y en este último
+el directorio PRUEBA2.1
+11. Convierte el directorio PRUEBA2.1 en el directorio actual. Compruébalo.
+12. Sitúate en el directorio raíz.
+13. Vuelve a tu directorio HOME y elimina el directorio PRUEBA2.1
+14. Desde el directorio HOME visualiza el contenido del directiro raíz.
+15. Modifica la orden anterior para mostrar información detallada de cada archivo.
+16. Sitúate en el directorio HOME y compureba si las siguientes órdenes son equivalentes:
+cd /etc
+cd ../../etc
+cd
+17. Colócate en tu directorio HOME. Crea, a partir de él, la siguiente estructura de directorios:
+TRABAJOS
+TEXTOS
+MODELOS
+IMPRESOS
+INSTANCIAS
+CIRCULARES
+INFORMES
+COPIAS
+TEMPORAL

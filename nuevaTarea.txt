@@ -1,30 +1,90 @@
+
+
+
 1. Crea el fichero amigos.txt. Cada línea contendrá el nombre y los apellidos de tus amigos.
+
+
+
 2. Crea el enlace duro amigos.enl sobre el fichero amigos.txt.
+
+
+
 3. Comprueba el tamaño de amigos.enl y de amigos.txt.
+
+
+
 4. Añade un nuevo amigo en amigos.enl. Comprueba el tamaño de los dos ficheros.
+
+
+
 5. Muestra en pantalla el contenido de amigos.enl y de amigos.txt ¿son iguales? Explica por
 qué.
+
+
+
 6. Comprueba qué ocurre si eliminas el fichero amigos.txt.
 Hasta ahora hemos realizado un enlace duro. Habrás observado que el tamño de amigos.enl
 y de amigos.txt aumenta y disminuye a la vez. Pero a veces puede interesarnos tener un
 enlace que sólo sea una referencia al fichero.
+
+
+
 7. Haz una copia de amigos.enl en amigos.txt.
+
+
+
 8. Crea un enlace blando amigosenlace.sim al fichero amigos.txt.
+
+
+
 9. Comprueba el tamaño de ambos ficheros.
+
+
+
 10. Realiza un listado con ls -l ¿Qué aparece en la primera columna de la información
 mostrada? ¿Y al final de la línea?.
+
+
+
 11. Elimina el ficheor amigos.txt ¿Puedes realizar un cat amigosenlace.sim? Razónalo.
 Para los ejercicios que siguen crea el fichero datos1 con cutro líneas de texto.
+
+
+
 12. Añade al fichero datos1 la fecha del día.
+
+
+
 13. Haz una copia del archivo datos1 con el nombre datos2.
+
+
+
 14. Crea un enlace simbólico del archivo datos1 con nombre datos3. Visualiza datos3.
+
+
+
 15. Añade una línea más al archivo dtos1. Visualiza los archivos datos1, datos2 y datos3. ¿Qué
 ficheros coinciden en el contenido? ¿Por qué?.
+
+
+
 16. Copia el archivo datos3 con el nombre datos4. ¿Qué relación habrá entre datos1 y datos4:
 copia o enlace simbólico? ¿Podrías comprobarlo? ¿Cómo?.
+
+
+
 17. Crea el directorio MUEVO. Mueve el archivo datos2 al directorio MUEVO.
+
+
+
 18. Muevo el archivo datos3 al directorio MUEVO conel nombre datos5. ¿Qué relación habrá
 entre datos1 y datos5: copia o enlace lógico? ¿Podrías comprobarlo?¿Cómo?.
+
+
+
 19. Cambia el nombre de datos4 por el de dato6.
+
+
+
 20. Añade todo el contenido de datos2 a datos1. Visualiza el nuevo contenido de datos1 y
 datos5.
