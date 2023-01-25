@@ -10,7 +10,7 @@ public class FileEditor {
 
     //Mensaje a bruno del futuro: lo dejo aqui porque necesito de un split mas flexible.
     //que reciba un array de caracteres por ejemplo
-    public void toHwFormat(String file, String newFile) throws FileNotFoundException {
+    public static void toHwFormat(String file, String newFile) throws FileNotFoundException {
         Scanner in = new Scanner(new FileInputStream(file));
         PrintStream out = new PrintStream(newFile);
         String[] elements = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
